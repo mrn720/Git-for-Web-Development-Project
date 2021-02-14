@@ -1,0 +1,83 @@
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    Semantic HTML is what is used for marking meaning of various parts of pages.
+    2. What is HTML used for?
+    HTML is used to divide a webpage into appropriate parts. 
+    3. What is an attribute and where do we put it? 
+    HTML attibutes are used to control behaviors, and is usually placed in the opening.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 tag is usually used for the most important title of a page. We use it once.
+    5. Name two tags that have required attributes
+    img tag and class tags
+    6. What do we put in the head of our HTML document? 
+    Anything before the first sections, including Nav etc.
+    7. What is an id? 
+    An ID is a one time use identifier to control a section, etc.
+    8. What elements can I add an id to? Any
+    9. How many times can I use the same id on a page? 
+    Once 
+    10. What is a class? Similar to an ID, but used for multiple things you want to style similarly 
+    11. What elements can I add a class to? 
+    Any
+    12. How many times can I use the same class on a page? 
+    As much as needed
+    13. How do I get my link to open in a new tab?
+    By using an anchor element
+    14. What is the alt attribute in the image tag used for? 
+    It displays an alternate text when an image does not display correctly
+    15. How do I reference an id?
+    #
+    16. What is the difference between a section and a div
+    Section groups things together whereas div is only used for CSS 
+    17. What is CSS used for?
+    Styling a page
+    18. How to we select an element? Example - every h2 on the page
+    h2 then brackets with what you want
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class can change multiple things you want to be formatted the same, where id is only for one thing. 
+    Class would be used if you have multiple paragraphs in different parts of a page that you want to be formatted the same.
+    Id would be used when you only need to stylize a specific area once.
+    20. How do we select classes in CSS?
+    By putting .class
+    21. How do we select a p element with a single class of “human””?
+    .human
+    22. What is a parent child selector? When would this be useful? 
+    It allows you to specify certain parts within a whole parent part. It's useful when you want to change a small part of a whole.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar
+    24. What is a pseudo selector?
+    Changes a special state of a whole. For example, hovering.
+    25. What do we use the change the spacing between lines?
+    line-height
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform with the modifier for our desired option.
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: dotted 1px black;
+    29. How do I select everything on the page? 
+    * selector
+    30. How do I write a comment in CSS?
+    */
+    31. How do I find out what file I am in, when I am using the command line?
+    git status
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    dir
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    del /f filename. You can mess your entire computer up.
+    34. Why should I use version control? 
+    For safety
+    35. How often should I commit to github?
+    Very often, every 10 minutes or so
+    36. What is the command we would use to push our repo up to github?
+    git push -u origin branch-name
+    37. Walk me through Lambda's git flow. 
+    git clone <Link to what you're pulling>
+    cd <file name of what you pulled>
+    git checkout -b 'Firstname-lastname'
+    git add changes
+    git commit -m "comment"
+    git push -u origin branch-name
